@@ -21,7 +21,7 @@ const checkout = cart.reduce((acc, currentProduct) => ({
     return(
         <main className={CartPageCSS.grid__container}>
             {
-                cart.length > 1 ?
+                cart.length > 0 ?
                 <>
                         <div className={CartPageCSS.product__container}>
                         <h1>Cart Items({cart.length})</h1>
