@@ -24,6 +24,7 @@ const checkout = cart.reduce((acc, currentProduct) => ({
                 cart.length > 1 ?
                 <>
                         <div className={CartPageCSS.product__container}>
+                        <h1>Cart Items({cart.length})</h1>
                 {cart.map(product => (
                     <CartProduct key={product.id} product={product}/>
                 ))}

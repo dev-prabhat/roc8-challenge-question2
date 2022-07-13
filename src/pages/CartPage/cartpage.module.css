@@ -14,6 +14,10 @@
 
 .cart__summary{
     grid-area: checkout;
+    background-color: var(--secondary-theme-color);
+    height: fit-content;
+    padding: 1rem;
+    margin: 1rem;
 }
 
 .price,.discount,.delivery,.total{
