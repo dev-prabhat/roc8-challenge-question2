@@ -1,0 +1,27 @@
+.header__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+    background-color: var(--primary-theme-light-color);
+}
+
+.products__link,.cart__link,.brand__link{
+    text-decoration: none;
+    display: inline-block;
+    margin: 0.5rem;
+    color: var(--secondary-theme-color);
+}
+
+.brand__link{
+    font-size: 1.5rem;
+}
+
+.products__link{
+    margin: 0.5rem 1rem;
+}
+
+.cart__link{
+    margin: 0.5rem 1rem;
+    position: relative;
+}

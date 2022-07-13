@@ -1,0 +1,26 @@
+.product__card{
+    box-shadow: 0 0 10px 5px var(--dark-theme-shade-80);
+    margin: 0.5rem;
+}
+
+.product__info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.add__to__cart__btn{
+    display: block;
+    width: 90%;
+    padding: 0.5rem;
+    font-size: 1.25rem;
+    border: none;
+    background-color: var(--primary-theme-color);
+    color: var(--secondary-theme-color);
+    margin: 1rem;
+    cursor: pointer;
+}
+
+/* .add__to__cart__btn:hover{
+    scale: 1;
+} */
